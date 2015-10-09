@@ -1,0 +1,17 @@
+{
+  "name": "Lemondo Kutaisi API request doc V1",
+  "version": "0.1.0",
+  "logopath"  : "iph.png",
+  "description": "",
+  "title": "Technical Requirements for Kutaisi API V1",
+  "url" : "http://apidoc.lemon.do/",
+  "sampleUrl": "http://apidoc.lemon.do/",
+  "header": {
+    "title": "API Description",
+    "filename": "header.md"
+  },
+  "template": {
+    "withCompare": true,
+    "withGenerator": true
+  }
+}
