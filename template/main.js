@@ -222,9 +222,9 @@ require([
     setTimeout(function () {
         $(document).attr('title', $('#project h1').text());
         var bg = '';
-        if (apiProject.logopath) {
-            bg = 'url(' + apiProject.logopath + ') top 10px left 20px no-repeat,';
-        }
+        //if (apiProject.logopath) {
+        //    bg = 'url(' + apiProject.logopath + ') top 10px left 20px no-repeat,';
+        //}
         bg += 'url(logo.png) center bottom 10px no-repeat';
         $('.nav-list').css('background', bg);
         $('#loader').remove();
